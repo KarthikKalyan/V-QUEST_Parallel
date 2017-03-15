@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+    <archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+      <id>V-QUEST_Parallel</id>
+      <allowPartial>true</allowPartial>
+      <sources>
+        <source>src/main/java/org/imgt/ForkJoinSequenceAnalysis3/readingSequencesMain.java</source>
+      </sources>
+      <testSources>
+        <source>src/test/java/org/imgt/ForkJoinSequenceAnalysis3</source>
+      </testSources>
+    </archetype>
